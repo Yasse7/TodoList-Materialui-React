@@ -7,7 +7,11 @@ const TodoForm =()=>{
             <form>
                 <FormControl fullWidth={true}> 
                     <TextField label="je vais faire..." required={true} />
-                    <Button variant="contained" color="primary" type="submit">Ajouter Task</Button>
+                    <Button variant="contained" color="primary" type="submit" style={
+                        {
+                            marginTop : 5
+                        }
+                    }>Ajouter Task</Button>
                 </FormControl>
             </form>
 
